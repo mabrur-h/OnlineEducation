@@ -40,6 +40,7 @@ body {
 
 .navbar-list-item-link:hover {
     color: #2575E6;
+    transition: 0.3s;
 }
 
 .navbar-list-btn-group {
@@ -61,6 +62,12 @@ body {
     padding: 10px 15px;
 }
 
+.dark:hover {
+    background-color: #44699e;
+    transition: 1s;
+}
+
+
 .light-button {
     background-color: transparent;
     border: 2px solid #2575E6;
@@ -72,10 +79,12 @@ body {
 .light-button:hover {
     background-color: #2575E6;
     color: white;
+    transition: 0.4s;
 }
 
 .navbar-list-btn-link:hover {
-    opacity: 50%;
+    opacity: 60%;
+    transition: 1s;
 }
 
 .banner-image {
@@ -307,8 +316,8 @@ body {
 
 .decoration-img {
     position: absolute;
-    top: 320px;
-    right: 10px;
+    bottom: 0%;
+    right: 0%;
     width: 70%;
 }
 
@@ -320,8 +329,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 200px;
-    right: 240px;
+    top: 50%;
+    right: 50%;
     position: absolute;
     z-index: 99;
     cursor: pointer;
@@ -329,4 +338,9 @@ body {
     border: none;
     box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.3), 0 0 0 25px rgba(255, 255, 255, 0.5);
     color: #2575E6;
+}
+
+.course-banner-image-btn:hover {
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 15px rgba(255, 255, 255, 0.5);
+    transition: 1s;
 }
