@@ -118,11 +118,11 @@ body {
     padding-bottom: 38px;
 }
 
-.banner-content .search-bar {
+.search-bar {
     display: flex;
 }
 
-.banner-content .search-bar input[type=text] {
+.search-bar input[type=text] {
     padding: 15px 26px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -130,7 +130,7 @@ body {
     border: none;
 }
 
-.banner-content .search-bar .btn-search {
+.search-bar .btn-search {
     padding: 19px 29px;
     background-color: #2575E6;
     color: white;
@@ -441,6 +441,90 @@ body {
 }
 
 .feedback-down:hover {
-    background-color: #ECF0FB;
+    background-color: #c4ddff;
     transition: 0.5s;
+}
+
+.blog {
+    background-color: #ECF0FB;
+}
+
+.blog .courses-title {
+    padding-top: 50px;
+}
+
+.blog .courses-list-text {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.course-list-item-date {
+    display: flex;
+    padding-top: 10px;
+}
+
+.course-list-item-date p {
+    color: rgb(125, 125, 125);
+    font-size: 12px;
+}
+
+.course-list-item-date-comment {
+    padding-left: 15px;
+}
+
+.course-list-item-link {
+    padding-bottom: 30px;
+}
+
+.course-list-item-link a {
+    color: #2575E6;
+}
+
+.course-list-item-link a:hover {
+    color: #404040;
+}
+
+.subscribe .container {
+    background-image: url(../img/decoration.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+}
+
+.subscribe .search-bar-place {
+    box-shadow: 0px 15px 25px rgba(129, 144, 255, 0.2); 
+}
+
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center
+}
+
+.subscribe-row {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.subscribe-subtext {
+    padding: 30px 0;
+    color: #686868;
+}
+
+.subscribe-content-title {
+    font-size: 30px;
+}
+
+.search-bar input[type=email] {
+    padding: 15px 26px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+    border: none;
+    width: 260px;
 }
