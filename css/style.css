@@ -344,3 +344,103 @@ body {
     box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.3), 0 0 0 15px rgba(255, 255, 255, 0.5);
     transition: 1s;
 }
+
+.students-feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.feedback {
+    background-image: url(../img/map.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right 30%;
+}
+
+.feedback-image {
+    width: 40%;
+    position: relative;
+}
+
+.feedback-image-src {
+    width: 100%;
+}
+
+.feedback-decoration {
+    position: absolute;
+    top: -17%;
+    left: 38%;
+    width: 20%;
+}
+
+.feedback-content {
+    width: 45%;
+}
+
+.feedback-title {
+    font-size: 22px;
+    font-weight: 800;
+    display: block;
+}
+
+.feedback-title::after {
+    content: "";
+    display: block;
+    width: 20%;
+    background-color: #5347E8;
+    height: 4px;
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+
+.feedback-owner {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.feedback-content-text {
+    line-height: 160%;
+}
+
+.feedback-owner-image {
+    border-radius: 50%;
+    height: 80px;
+    margin-right: 26px;
+}
+
+.feedback-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.feedback-stars {
+    color: goldenrod;
+}
+
+.feedback-stars i {
+    padding: 0 3px;
+}
+
+.feedback-down {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+.feedback-down img {
+    width: 40px;
+}
+
+.feedback-down:hover {
+    background-color: #ECF0FB;
+    transition: 0.5s;
+}
