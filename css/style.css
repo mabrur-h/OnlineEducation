@@ -528,3 +528,39 @@ body {
     border: none;
     width: 260px;
 }
+
+.footer {
+    background-color: #ECF0FB;
+}
+
+.footer-list-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.footer-list .footer-list-item h4 {
+    padding-bottom: 30px;
+}
+
+.item-pad {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #686868;
+}
+
+.footer-list .footer-list-item {
+    padding: 4px 0;
+}
+
+.footer-list .footer-list-item a {
+    color: #404040;
+}
+
+.footer-list .footer-list-item a:hover {
+    color: #2575E6;
+}
+
+.footer-list-item i {
+    padding-right: 15px;
+}
