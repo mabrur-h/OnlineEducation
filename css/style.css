@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -486,7 +490,7 @@ body {
 }
 
 .subscribe .container {
-    background-image: url(../img/decoration.svg);
+    background-image: url(../img/triangles.svg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
