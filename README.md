@@ -1,6 +1,6 @@
 # OnlineEducation
 Web site for online education
 
-✅ Responsive
+✖️ not responsive
 
-site overview - https://omega-page.netlify.app/
+site overview - https://e-learn-page.netlify.app/
